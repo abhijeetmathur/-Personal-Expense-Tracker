@@ -1,4 +1,4 @@
-# -Personal-Expense-Tracker
+# Personal-Expense-Tracker
 A full-stack web application to track daily expenses, set budgets, and visualize spending trends with interactive charts.
 
 ## 🚀 Features
