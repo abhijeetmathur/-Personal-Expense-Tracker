@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Personal Expense Tracker</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Expense Tracker</h1>
+    
+    <form id="expense-form">
+      <input type="date" id="date" required />
+      <input type="text" id="category" placeholder="Category" required />
+      <input type="text" id="description" placeholder="Description" required />
+      <input type="number" id="amount" placeholder="Amount" required />
+      <input type="text" id="payment_method" placeholder="Payment Method" required />
+      <button type="submit">Add Expense</button>
+      <ul id="expense-list"></ul>
+    </form>
+
+    
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
